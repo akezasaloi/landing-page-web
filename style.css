@@ -1,0 +1,74 @@
+body {
+        @media (max-width: 768px){
+            display: flex;
+        }
+        background-color: rgb(209, 245, 233);
+        overflow-x: hidden;
+        margin:0%;
+    }
+ header{
+    @media (max-width: 768px){
+        display: flex;
+    }
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    .dit-logo{
+        padding-top: 5px;
+      
+    }
+    .login-and-signup{
+    
+        padding-top: 25px ;
+        #login{
+            border: 0;
+            background-color: rgb(209, 245, 233);
+            font-size: 150%;
+        }
+        #signup{
+            border-radius:15px;
+            font-size: 150%;
+            background-color: rgb(248, 157, 172);
+            color: white;
+
+            border:9px solid rgb(248, 157, 172) ;
+        }
+    }
+    .navigation-bar{
+        text-align: center;
+        }
+        nav{
+            justify-content: center;
+            
+        }
+        nav ul{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 5px;
+        }nav ul li {
+            display: inline;
+            margin: 0 5px;
+        }
+        nav ul li a {
+            color: #25284d;
+            text-decoration: none;
+        }
+ }
+ .improve-the-way-you-charge{
+    @media (max-width: 768px){
+        display: flex;
+    }
+    h2{
+        color:#25284d ;
+        u{
+            color: red;
+        }
+    }
+ }
