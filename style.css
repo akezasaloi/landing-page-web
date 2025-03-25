@@ -2,10 +2,31 @@ body {
         @media (max-width: 768px){
             display: flex;
         }
-        background-color: rgb(209, 245, 233);
+        background-color: rgb(226, 245, 239);
         overflow-x: hidden;
         margin:0%;
+        .fa-google-play{
+            text-decoration: none;
+            border:1px solid #25284d;
+            border-radius: 20px;
+            padding: 4%;
+            background-color: white;
+            color: #25284d;
+            text-transform: capitalize;
+        }
+        .fa-apple{
+            text-decoration: none;
+            border:6px solid #25284d;
+            border-radius: 20px;
+            padding: 2%;
+            background-color: #25284d;
+            color: white;
+            text-transform: capitalize;
+        }
+        .appstore-playstore{
+          display: flex;
     }
+}
  header{
     @media (max-width: 768px){
         display: flex;
@@ -45,7 +66,7 @@ body {
             list-style: none;
             padding: 0;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
             margin-left: 50px;
             margin-top: 40px;
         }
@@ -62,13 +83,123 @@ body {
         }
  }
  .improve-the-way-you-charge{
+    display: flex;
+    padding-left: 10%;
+    gap: 20%;
     @media (max-width: 768px){
         display: flex;
     }
     h2{
+       
         color:#25284d ;
         u{
             color: red;
         }
     }
  }
+ .brands-growing-with-dit{
+    @media (max-width: 768px){
+        display: flex;
+    }
+    p{
+        text-align: center;
+    }
+    i{
+        
+        text-align: center;
+        padding-left:5%;
+    }
+    span{
+        padding-left: 5%;
+    }
+
+ }
+ .the-product-we-work-with{
+    @media (max-width: 768px){
+        display: flex;
+    }
+    .the-product-we-work-with-content{
+        display: flex;
+        gap:20%;
+    }
+ }
+ .lets-see-diti-io-in-numbers{
+    @media (max-width: 768px){
+        display: flex;
+    }
+    .lets-see-diti-io-in-numbers-content{
+        u{
+            color: red;
+        }
+    }
+    .downloads-and-active-users{
+        display: flex;
+        gap: 10%;
+    }
+    
+ }
+ .we-are-helping-customer-globally-everytime{
+    p{
+        text-align: center;
+        font-size: 200%;
+        u{
+            color: red;
+        }
+    }
+    .mobile-app-interface-with-screenshots{
+        display: flex;
+        gap: 15%;
+        p{
+            font-size: 100%;
+        }
+        #know-more-about-the-app{
+            color: white;
+            border: 6px solid #25284d;
+            border-radius: 10px;
+            text-decoration: none;
+            background-color: #25284d;
+        }
+        .fa-mobile-screen-button{
+            color: rgb(243, 89, 115);
+        }
+        p{
+            text-align: justify;
+        }
+    }
+    @media (max-width: 768px){
+        display: flex;
+    }
+    .mobile-app-interface-screenshots{
+        padding-bottom: 25%;
+    }
+ }
+ .words-from-our-clients{
+    @media (max-width: 768px){
+        display: flex;
+    }
+    display:flex;
+    gap: 10%;
+    .edwin-zohir-picture{
+        /*padding-right: 30%;FIND OUT THE ISSUE HERE!!*/
+        display: flex;
+    }
+    .jecson-mokbul-picture{
+        /*padding-right: 30%;FIND OUT THE ISSUE HERE!!*/
+        display: flex;
+    }
+ }
+ .download-diti-io-mobile-app{
+    @media (max-width: 768px){
+        display: flex;
+    }
+    display: flex;
+    gap:20%;
+
+ }
+ footer{
+    @media (max-width: 768px){
+        display: flex;
+        
+    }
+ }
+
