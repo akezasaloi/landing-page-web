@@ -91,6 +91,9 @@ body {
     display: flex;
     justify-content: center;
     gap: 20%;
+    .roger-westervelt-image{
+        border: 2px solid rgb(238, 245, 243);
+    }
     .improve-the-way-you-charge-caption{
         padding-top: 12%;
         .appstore-playstore{
@@ -195,7 +198,14 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    #okay-lets-see-diti-io-in-numbers-content{
+        color: gray;
+    }
+    #okay-lets-see-diti-io-in-numbers{
+        font-size: 260%;
+    }
     .lets-see-diti-io-in-numbers-content{
+       
         padding-top:12% ;
         u{
             color: red;
