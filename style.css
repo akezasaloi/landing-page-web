@@ -289,6 +289,9 @@ body {
     .jecson-mokbul{
         padding: 1%;
         width:23%;
+        i{
+            color: rgb(224, 193, 13);
+        }
     }
     .edwin-zohir-picture{
         display: flex;
@@ -312,6 +315,13 @@ body {
  .download-diti-io-mobile-app{
     @media (max-width: 768px){
         display: flex;
+    }
+    .download-diti-io-mobile-app-content{
+        padding-top: 12%;
+        width: 20%;
+        #download-diti-io-mobile-app{
+            font-size: 200%;
+        }
     }
     justify-content: center;
     display: flex;
